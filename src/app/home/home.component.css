@@ -1,0 +1,21 @@
+.home img
+{
+    width:100%;
+    height:890px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.homecontent
+{
+    position: absolute;
+    top : 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+.homecontent h1{
+    color:#FFFFFF;
+}
+

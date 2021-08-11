@@ -1,1 +1,16 @@
-<p>fps-games works!</p>
+<section class="fps">
+<div class="fps-container">
+    <h1 class="text-center">Best First person shooters</h1>
+
+    <div class="row mt-5" >
+        <div class="col-lg-4" *ngFor="let cs of fps">
+            <div class="box">
+                <img src="{{cs.image}}" width="100%">
+                <h3 class="mt-2">{{cs.name}}</h3>
+                <p class="mt-2">{{cs.description}}</p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+</section>
