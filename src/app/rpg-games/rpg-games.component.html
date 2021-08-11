@@ -1,1 +1,15 @@
-<p>rpg-games works!</p>
+<section class="rpg">
+    <div class="rpg-container">
+        <h1 class="text-center">Best role playing games</h1>
+    
+        <div class="row mt-5" >
+            <div class="col-lg-4" *ngFor="let cs of rpg">
+                <div class="box">
+                    <img src="{{cs.image}}" width="100%">
+                    <h3 class="mt-2">{{cs.name}}</h3>
+                    <p class="mt-2">{{cs.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
